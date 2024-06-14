@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Precious Aliyah Landscape & Services</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Include Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <Style>
+        .contact-form {
+            max-width: 400px;
+            margin: auto;
+        }
+
+        .contact-form form {
+            display: grid;
+            gap: 10px;
+        }
+
+        .contact-form label {
+            font-weight: bold;
+        }
+
+        .contact-form input[type=text],
+        .contact-form input[type=email],
+        .contact-form input[type=tel],
+        .contact-form textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        .contact-form button[type=submit] {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button[type=submit]:hover {
+            background-color: #0056b3; 
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .social-media a {
+            margin-right: 10px;
+            color: white;
+            font-size: 20px;
+            transition: color 0.3s ease;
+        }
+
+        .social-media a:hover {
+            color: #007bff; 
+        }
+
+        .newsletter input[type=email] {
+            width: 200px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .newsletter button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .newsletter button:hover {
+            background-color: #0056b3; 
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Logo" class="logo-img">
+                <span>Precious Aliyah Landscape & Services</span>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Portfolio</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <a href="quote.html" class="cta">Get a Quote</a>
+            </nav>
+        </div>
+    </header>
+    <section class="contact">
+        <h2>Request a Free Consultation</h2>
+        <div class="contact-content">
+            <div class="contact-form">
+                <form>
+                    <label for="name">Your Email</label>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    <label for="name">1. What is included in the free consultation?</label>
+                    <button type="submit">Send</button>
+                    <label for="email">2. How long does the consultation typically take?</label>
+                    <button type="submit">Send</button>
+                    <label for="phone">3. What information or materials should I prepare or provide before the consultation?</label>
+                    <button type="submit">Send</button>
+                    <label for="phone">4. Will I receive a written estimate or proposal following the consultation?</label>
+                    <button type="submit">Send</button>
+                    <label for="phone">5. What are the next steps if I decide to proceed after the consultation?</label>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Our Contact Information</h3>
+                <p><strong>Address:</strong> Southville 1 Brgy. Niugan, Cabuyao city, Laguna</p>
+                <p><strong>Phone:</strong> (+63) 926-887-1624</p>
+                <p><strong>Email:</strong> <a href="eloisa041317@gmail.com">https://www.facebook.com/Preciousandprince/</a></p>
+                <h3>Business Hours</h3>
+                <p><strong>Monday - Saturday:</strong> 9:00 AM - 4:00 PM</p>
+                <p><strong>Sunday:</strong> Closed</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-media">
+                <h4>Follow Us</h4>
+                <a href="#"><i class="fab fa-facebook" style="color: #3b5998;"></i></a>
+                <a href="#"><i class="fab fa-instagram" style="color: #e4405f;"></i></a>
+                <a href="#"><i class="fab fa-twitter" style="color: #1da1f2;"></i></a>
+                <a href="#"><i class="fab fa-linkedin" style="color: #0077b5;"></i></a>
+            </div>
+            <div class="newsletter">
+                <h4>Subscribe to our Newsletter</h4>
+                <input type="email" placeholder="Enter your email">
+                <button><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+        <p>&copy; 2024 Landscaping Services</p>
+    </footer>
+    <script>
+        function scrollToSection() {
+            document.getElementById('target-section').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
